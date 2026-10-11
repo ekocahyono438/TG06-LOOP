@@ -10,16 +10,16 @@ $no_hp = "0857-8284-3308";
 $alamat = "Sepatan, Tangerang";
 
 
-for ($i=1; $i <= 20 ; $i++) { 
+for ($a=1; $a <= 20 ; $a++) { 
      echo "<br>";
-    if ($i ==2) {
-        echo "$i : $nama";
-    }elseif ($i==5) {
-        echo "$i :  $no_hp";
-    } elseif($i==7){
-        echo "$i :  $alamat";
+    if ($a ==2) {
+        echo "$a : $nama";
+    }elseif ($a==5) {
+        echo "$a :  $no_hp";
+    } elseif($a==7){
+        echo "$a :  $alamat";
     }else {
-        echo "$i : ";
+        echo "$a : ";
     }
     
 }
